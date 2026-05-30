@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutPit Store</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <img src="ot.png" alt="OutPit Store Logo" class="logo">
+        <h1><span id="typewriter"></span><span class="cursor"></span></h1>
+        
+        <button id="lang-switch" class="lang-btn" onclick="toggleLanguage()">🌐 EN</button>
+    </header>
+
+    <main>
+        <div class="filter-container">
+            <button id="filter-all" class="filter-btn active" onclick="filterProducts('All', this)">Semua</button>
+            <button class="filter-btn" onclick="filterProducts('Tshirt', this)">T-Shirt</button>
+            <button class="filter-btn" onclick="filterProducts('Jeans', this)">Jeans</button>
+            <button class="filter-btn" onclick="filterProducts('Hoodie', this)">Hoodie</button>
+            <button class="filter-btn" onclick="filterProducts('Flanel', this)">Flanel</button>
+        </div>
+        
+        <div id="product-list" class="grid-container">
+            </div>
+    </main>
+
+    <div id="cart-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2 id="cart-title">Keranjang Belanja</h2>
+            <div id="cart-items">
+                </div>
+            
+            <div class="cart-total">
+                <h3><span id="total-text">Total: Rp </span><span id="total-price">0</span></h3>
+            </div>
+            
+            <button id="checkout-btn" class="wa-btn">
+                <i class="fab fa-whatsapp"></i> <span id="checkout-text">Pesan via WhatsApp</span>
+            </button>
+            <button id="close-cart" class="close-btn">
+                <span id="close-text">Tutup</span>
+            </button>
+        </div>
+    </div>
+
+    <nav class="bottom-nav">
+        <a href="#" class="nav-item active" id="nav-home">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="nav-item" id="nav-cart">
+            <div class="cart-icon-wrapper">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-badge" class="badge">0</span>
+            </div>
+            <span id="nav-cart-text">Keranjang</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

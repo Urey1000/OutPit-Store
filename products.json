@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "OutPit Tshirt Classic",
+    "category": "Tshirt",
+    "price": 115000,
+    "image": "OT1.png"
+  },
+  {
+    "id": 2,
+    "name": "OutPit Tshirt Classic",
+    "category": "Tshirt",
+    "price": 115000,
+    "image": "OT2.png"
+  },
+  {
+    "id": 3,
+    "name": "OutPit Tshirt Classic",
+    "category": "Tshirt",
+    "price":115000,
+    "image": "OT3.png"
+  },
+  {
+    "id": 4,
+    "name": "OutPit Kemeja Classic",
+    "category": "Tshirt",
+    "price":115000,
+    "image": "OT4.png"
+  },
+  {
+    "id": 5,
+    "name": "OutPit Tshirt Classic",
+    "category": "Tshirt",
+    "price":115000,
+    "image": "OT5.png"
+  },
+  {
+    "id": 6,
+    "name": "OutPit Tshirt Classic",
+    "category": "Tshirt",
+    "price":115000,
+    "image": "OT6.png"
+  },
+  {
+    "id": 7,
+    "name": "OutPit Tshirt Classic",
+    "category": "Tshirt",
+    "price":115000,
+    "image": "OT7.png"
+  },
+      {
+        "id": 8,
+        "name": "Celana Jeans OutPit Standrt",
+        "category": "Jeans",
+        "price": 240000,
+        "image": "ojsa1.png"
+    },
+    {
+        "id": 9,
+        "name": "Celana Jeans OutPit Standrt",
+        "category": "Jeans",
+        "price": 240000,
+        "image": "ojsa2.png"
+    },
+    {
+        "id": 10,
+        "name": "Celana Jeans OutPit Pensil",
+        "category": "Jeans",
+        "price": 240000,
+        "image": "ojp1.png" 
+    },
+  {
+    "id": 11,
+        "name": "Celana Jeans OutPit Pensil",
+        "category": "Jeans",
+        "price": 240000,
+        "image": "ojp2.png"
+  },
+  {
+    "id": 12,
+        "name": "OutPit Hoodie",
+        "category": "Hoodie",
+        "price": 180000,
+        "image": "oha1.png"
+  },
+  {
+    "id": 13,
+        "name": "OutPit Hoodie",
+        "category": "Hoodie",
+        "price": 180000,
+        "image": "oha2.png"
+  },
+  {
+    "id": 14,
+        "name": "OutPit Hoodie",
+        "category": "Hoodie",
+        "price": 180000,
+        "image": "oha3.png"
+  },
+  {
+    "id": 15,
+        "name": "OutPit Hoodie",
+        "category": "Hoodie",
+        "price": 180000,
+        "image": "oha4.png"
+  },
+  {
+    "id": 16,
+        "name": "OutPit Hoodie",
+        "category": "Hoodie",
+        "price": 180000,
+        "image": "oha5.png"
+  },
+  {
+    "id": 17,
+        "name": "OutPit Hoodie",
+        "category": "Hoodie",
+        "price": 180000,
+        "image": "oha7.png"
+  },
+  {
+    "id": 18,
+        "name": "OutPit Hoodie",
+        "category": "Hoodie",
+        "price": 180000,
+        "image": "oha9.png"
+  },
+  {
+    "id": 19,
+        "name": "OutPit Flanel",
+        "category": "Flanel",
+        "price": 180000,
+        "image": "ofn1.png"
+  },
+  {
+    "id": 20,
+        "name": "OutPit Flanel",
+        "category": "Flanel",
+        "price": 180000,
+        "image": "ofn2.png"
+  },
+   {
+    "id": 21,
+        "name": "OutPit Flanel",
+        "category": "Flanel",
+        "price": 180000,
+        "image": "ofn3.png"
+  },
+   {
+    "id": 22,
+        "name": "OutPit Flanel",
+        "category": "Flanel",
+        "price": 180000,
+        "image": "ofn4.png"
+  },
+   {
+    "id": 23,
+        "name": "OutPit Flanel",
+        "category": "Flanel",
+        "price": 180000,
+        "image": "ofn5.png"
+  },
+   {
+    "id": 24,
+        "name": "OutPit Flanel",
+        "category": "Flanel",
+        "price": 180000,
+        "image": "ofn6.png"
+  },
+   {
+    "id": 25,
+        "name": "OutPit Flanel",
+        "category": "Flanel",
+        "price": 180000,
+        "image": "ofa7.png"
+  }
+ 
+ 
+ 
+ 
+ 
+]

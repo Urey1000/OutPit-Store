@@ -1,0 +1,270 @@
+/* Pengaturan Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1f2b2b; /* Warna gelap khas logomu */
+    color: #f4ebd0; /* Warna teks cream */
+    padding-bottom: 70px; /* Ruang untuk bottom nav */
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #151e1e;
+    border-bottom: 2px solid #b89758;
+    position: relative; /* Tambahan wajib agar posisi tombol pas */
+}
+
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+/* Grid Produk */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #2a3b3b;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #3c5252;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    font-size: 1rem;
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    color: #b89758; /* Warna emas */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    background-color: #b89758;
+    color: #151e1e;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #151e1e;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #3c5252;
+    z-index: 100;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #8a9a9a;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.nav-item.active {
+    color: #b89758;
+}
+
+.nav-item i {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.cart-icon-wrapper {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.7rem;
+}
+
+/* Modal Keranjang */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+
+.modal.hidden {
+    display: none !important;
+}
+
+.modal-content {
+    background-color: #1f2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    border: 2px solid #b89758;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    border-bottom: 1px solid #3c5252;
+    padding-bottom: 10px;
+}
+
+.qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qty-btn {
+    background-color: #3c5252;
+    color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wa-btn {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.close-btn {
+    background-color: transparent;
+    color: #f4ebd0;
+    border: 1px solid #f4ebd0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Efek Kursor Mesin Tik */
+.cursor {
+    display: inline-block;
+    width: 3px;
+    height: 1.2rem;
+    background-color: #b89758; /* Warna emas senada dengan tema logo */
+    margin-left: 5px;
+    vertical-align: middle;
+    animation: blink 0.8s infinite;
+}
+
+/* Animasi berkedip */
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* ==========================================
+   Desain Tombol Ganti Bahasa
+   ========================================== */
+.lang-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: #b89758;
+    border: 1px solid #b89758;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    background-color: #b89758;
+    color: #1f2b2b;
+}
+/* ==========================================
+   Desain Tombol Filter Kategori
+   ========================================== */
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0 10px 0;
+}
+
+.filter-btn {
+    background-color: transparent;
+    color: #8a9a9a; 
+    border: 1px solid #3c5252;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: all 0.3s ease; 
+}
+
+.filter-btn:hover, 
+.filter-btn.active {
+    background-color: #b89758; 
+    color: #1f2b2b; 
+    border-color: #b89758;
+}
